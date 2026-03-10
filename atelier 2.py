@@ -72,6 +72,7 @@ e1.affecterVoiture(v1)
 print()
 e1.retirerVoiture()
 print()
+e2.affecterVoiture(v1)
 
 
 
