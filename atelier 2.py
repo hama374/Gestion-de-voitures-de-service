@@ -57,3 +57,7 @@ class Employe:
             self.voitureService.chauffeur = None
             self.voitureService = None
             print("Voiture retirée.")
+e1 = Employe("12345", "Dupont", "Jean")
+e2 = Employe("67890", "Martin", "Paul")
+v1 = Voiture("AA123BB", 2020, "Toyota", 20000)
+v2 = Voiture("CC456DD", 2021, "Honda", 15000)
