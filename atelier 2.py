@@ -68,5 +68,7 @@ e1.afficherInformations()
 print()
 v1.afficherInformations()
 print()
+e1.affecterVoiture(v1)
+print()
 
 
