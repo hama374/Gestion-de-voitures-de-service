@@ -1,6 +1,6 @@
 class Voiture:
 
-    def _init_(self, matricule, annee, marque, kilometrage):
+    def __init__(self, matricule, annee, marque, kilometrage):
         self.matricule = matricule
         self.annee = annee
         self.marque = marque
@@ -17,11 +17,11 @@ class Voiture:
                 print("Chauffeur :", self.chauffeur.nom, self.chauffeur.prenom)
             else:
                 print("Aucun chauffeur")
-class Employe:
 
-    def _init_(self, numeroPermis, nom, prenom):
+class Employe:
+    def __init__(self,numeroPermis, nom, prenom):
         self.numeroPermis = numeroPermis
-        self.nom = nom
+        self.nom =nom
         self.prenom = prenom
         self.voitureService = None
 
@@ -57,7 +57,16 @@ class Employe:
             self.voitureService.chauffeur = None
             self.voitureService = None
             print("Voiture retirée.")
-e1 = Employe("12345", "Dupont", "Jean")
-e2 = Employe("67890", "Martin", "Paul")
-v1 = Voiture("AA123BB", 2020, "Toyota", 20000)
-v2 = Voiture("CC456DD", 2021, "Honda", 15000)
+
+
+e1 =Employe("654587", "Dupont", "Jean")
+e2 =Employe("67890", "Martin", "Paul")
+v1 =Voiture("AA123BB", 2020, "Toyota", 20000)
+v2 =Voiture("CC456DD", 2021, "Honda", 15000)
+
+e1.afficherInformations()
+print()
+v1.afficherInformations()
+print()
+
+
