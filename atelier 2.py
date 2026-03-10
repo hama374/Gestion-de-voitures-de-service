@@ -70,5 +70,8 @@ v1.afficherInformations()
 print()
 e1.affecterVoiture(v1)
 print()
+e1.retirerVoiture()
+print()
+
 
 
