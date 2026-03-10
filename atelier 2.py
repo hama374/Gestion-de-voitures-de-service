@@ -17,5 +17,10 @@ class Voiture:
                 print("Chauffeur :", self.chauffeur.nom, self.chauffeur.prenom)
             else:
                 print("Aucun chauffeur")
+class Employe:
 
-
+    def _init_(self, numeroPermis, nom, prenom):
+        self.numeroPermis = numeroPermis
+        self.nom = nom
+        self.prenom = prenom
+        self.voitureService = None
